@@ -1,11 +1,16 @@
-import Navbar from "./components/navbar/navbar";
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
+import './App.css';
+import { Navbar, Dashboard } from './components/';
+
+const App = () => {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
-      Hey!
+      <div className="container">
+        <Dashboard />
+      </div>
     </div>
   );
 }

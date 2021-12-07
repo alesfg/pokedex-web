@@ -1,6 +1,8 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-  }
+.App {
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #ef5350 !important;
+}
